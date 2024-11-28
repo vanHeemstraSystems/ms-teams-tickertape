@@ -4,7 +4,7 @@ ms-team-tickertape
 
 > línea de bala
 
--   [Glossary](./GLOSSARY.md)
+-   [Glosario](./GLOSSARY.md)
 -   [Referencias](./REFERENCES.md)
 -   [Documentación](./DOCUMENTATION.md)
 -   [Telemetria](./TELEMETRY.md)
@@ -21,7 +21,7 @@ Ver[README.md](./100/README.md)
 
 Ver[README.md](./200/README.md)
 
-## 300 - Building Our Application
+## 300 - Construyendo nuestra aplicación
 
 Ver[README.md](./300/README.md)
 
