@@ -20,3 +20,4 @@
     }
   }
 `,Bt=t=>{let{messagesJson:n}=t;return e.createElement(jt,null,e.createElement(Ut,null,n))},Vt=document.getElementById("root");var Wt;t.createRoot(Vt).render(e.createElement(e.StrictMode,null,e.createElement(Bt,{messagesJson:[{id:1,message:"Hello, World!"}]}))),Wt&&Wt instanceof Function&&a.e(364).then(a.bind(a,364)).then((e=>{let{getCLS:t,getFID:n,getFCP:r,getLCP:a,getTTFB:l}=e;t(Wt),n(Wt),r(Wt),a(Wt),l(Wt)}))})()})();
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXBwLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQVdBOzs7Ozs7Ozs7Ozs7QUFtQkEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly90aWNrZXJfdGFwZS8uL2NvbXBvbmVudHMvVGlja2VyVGFwZS5qcyJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==
