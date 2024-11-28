@@ -41,7 +41,7 @@ Bringen Sie Ihren Code auf Ihrem eigenen System zum Laufen.
 
     Dadurch wird das erstellt`app.js`Datei - die alle Komponenten enthält - in`/src/ticker_tape/static/js/`.
 
-    **Entwicklung mit Webpack:**Wenn Sie Ihre Website noch entwickeln, in a**separate terminal session**, nachdem Sie den oben genannten Installationsprozess befolgt haben, gehen Sie wie folgt vor:
+    **Entwicklung mit Webpack:**Wenn Sie Ihre Website noch entwickeln, in a**separate Terminalsitzung**, nachdem Sie den oben genannten Installationsprozess befolgt haben, gehen Sie wie folgt vor:
     1)`$ hatch shell`2)`(ticker-tape) $ cd src/ticker_tape`3)`(ticker-tape) $ npm install`4)`(ticker-tape) $ npm run watch`
 
     Dies wird - in der separaten Terminalsitzung (d. h.`background`) – lädt die von Ihnen vorgenommenen Änderungen ständig in die entsprechenden Dateien, während Sie diese Änderungen weiterhin vornehmen können – in der ersten Terminalsitzung (d. h.`foreground`). Sie müssen Ihre Quellen also nicht nach jeder Bearbeitung neu erstellen, dies geschieht automatisch!
