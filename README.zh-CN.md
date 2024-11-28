@@ -34,10 +34,10 @@ MS-团队-tickertape
     (ticker-tape) $ exit # optional, type `exit` to leave the environment
     ```
 
-    **使用 webpack 打包您的网站：**一旦你有了一个足够好的网站可供你使用，你就必须使用 webpack 打包该应用程序。该包文件夹列于`.gitignore`以避免它被提交给 git。
+    **使用 webpack 打包您的网站：**一旦你有了一个足够好的网站可供你使用，你就必须使用 webpack 打包应用程序。该包文件夹列于`.gitignore`以避免它被提交给 git。
 
-    现在所有设置都应该准备就绪，因此您需要做的就是：
-    1）`$ hatch shell`2)`(ticker-tape) $ cd src/ticker_tape`3)`(ticker-tape) $ npm install`4)`(ticker-tape) $ npm run build`
+    All of the setup should be ready by now so all you have to do:
+    1) `$ hatch shell`2)`(ticker-tape) $ cd src/ticker_tape`3)`(ticker-tape) $ npm install`4)`(ticker-tape) $ npm run build`
 
     这将创建`app.js`文件 - 包含所有组件 - 在`/src/ticker_tape/static/js/`.
 
@@ -118,9 +118,9 @@ MS-团队-tickertape
 
 导航至`http://127.0.0.1:5000/docs`在您的网络浏览器中，或从以下位置下载 openapi.json`http://127.0.0.1:5000/openapi.json`.
 
-# 指标
+# Metrics
 
-让 Prometheus 这样的工具刮擦`http://127.0.0.1:9464/metrics`.
+让像 Prometheus 这样的工具刮擦`http://127.0.0.1:9464/metrics`.
 
 **_新的_**
 
@@ -161,7 +161,7 @@ pip install ticker-tape
 
 ## 100 - 简介
 
-看[README.md](./100/README.md)
+See [README.md](./100/README.md)
 
 ## 200 - 要求
 
