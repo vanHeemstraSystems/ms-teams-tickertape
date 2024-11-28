@@ -1,5 +1,5 @@
-repository-name
-# Repository Name
+ms-team-tickertape
+# MS Teams Ticker Tape
 
 > Slugline
 

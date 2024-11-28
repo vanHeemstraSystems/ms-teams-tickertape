@@ -1,0 +1,104 @@
+# ticker-tape/pyproject.toml
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ticker-tape"
+dynamic = ["version"]
+description = 'Ticker Tape application'
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = [
+    "hatch",
+  "ticker-tape",
+  "ms-teams"
+]
+authors = [
+  { name = "Willem van Heemstra", email = "wvanheemstra@icloud.com.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: MIT License",  
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+]
+
+[project.urls]
+Documentation = "https://github.com/vanHeemstraSystems/ms-teams-tickertape#readme"
+Donate = "https://github.com/sponsors/vanHeemstraSystems"
+History = "https://github.com/vanHeemstraSystems/ms-teams-tickertape/blob/master/HISTORY.md"
+Issues = "https://github.com/vanHeemstraSystems/ms-teams-tickertape/issues"
+Source = "https://github.com/vanHeemstraSystems/ms-teams-tickertape"
+
+[tool.hatch.version]
+path = "src/ticker_tape/__about__.py"
+
+[tool.hatch.envs.default]
+dependencies = [
+  "coverage[toml]>=6.5",
+  "pytest",
+  "flask"
+]
+[tool.hatch.envs.default.scripts]
+app = "python src/ticker_tape/app.py"
+
+[tool.hatch.envs.types]
+extra-dependencies = [
+  "mypy>=1.0.0",
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/ticker_tape tests}"
+
+[tool.hatch.envs.test]
+dependencies = [
+  "pytest",
+  "pytest-cov",
+  "pytest-watcher"
+]
+
+[tool.hatch.envs.test.scripts]
+test = "pytest {args:tests}"
+test-cov = "coverage run -m pytest {args:tests}"
+cov-report = [
+  "- coverage combine",
+  "coverage report",
+]
+cov = [
+  "test-cov",
+  "cov-report",
+]
+
+[[tool.hatch.envs.test.matrix]]
+python = ["3.10", "3.11"]
+
+[[tool.hatch.envs.all.matrix]]
+python = ["3.12"]
+
+[tool.coverage.run]
+source_pkgs = ["ticker_tape", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/ticker_tape/__about__.py",
+]
+
+[tool.coverage.paths]
+ticker_tape = ["src/ticker_tape", "*/ticker-tape/src/ticker_tape"]
+tests = ["tests", "*/ticker-tape/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
