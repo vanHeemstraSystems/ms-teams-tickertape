@@ -120,7 +120,7 @@ Accédez à`http://127.0.0.1:5000/docs`dans votre navigateur Web, ou télécharg
 
 # Métrique
 
-Let a tool like Prometheus scrape `http://127.0.0.1:9464/metrics`.
+Laissez un outil comme Prometheus gratter`http://127.0.0.1:9464/metrics`.
 
 **_NOUVEAU_**
 
