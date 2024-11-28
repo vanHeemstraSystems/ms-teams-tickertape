@@ -1,3 +1,3 @@
 # Documentation
 
-Read the Docs: [REPOSITORY-NAME](https://vanheemstrasystems-ms-teams-tickertape.readthedocs.io/en/latest/)
+Read the Docs: [MS Teams TickerTape](https://vanheemstrasystems-ms-teams-tickertape.readthedocs.io/en/latest/)
