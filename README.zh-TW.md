@@ -34,7 +34,7 @@ MS-團隊-tickertape
     (ticker-tape) $ exit # optional, type `exit` to leave the environment
     ```
 
-    **使用 webpack 打包您的網站：**一旦你有了一個足夠好的網站可供你使用，你就必須使用 webpack 打包該應用程式。該包資料夾列於`.gitignore`以避免它被提交給 git。
+    **使用 webpack 打包您的網站：**一旦你有了一個足夠好的網站可供你使用，你就必須使用 webpack 打包應用程式。該包資料夾列於`.gitignore`以避免它被提交給 git。
 
     現在所有設定都應該準備就緒，因此您需要做的就是：
     1）`$ hatch shell`2)`(ticker-tape) $ cd src/ticker_tape`3)`(ticker-tape) $ npm install`4)`(ticker-tape) $ npm run build`
@@ -120,7 +120,7 @@ MS-團隊-tickertape
 
 # 指標
 
-讓 Prometheus 這樣的工具刮擦`http://127.0.0.1:9464/metrics`.
+讓像 Prometheus 這樣的工具刮擦`http://127.0.0.1:9464/metrics`.
 
 **_新的_**
 
@@ -138,7 +138,7 @@ MS-團隊-tickertape
 pip install ticker-tape
 ```
 
-## Version source
+## 版本來源
 
 -   這[孵化VCS](https://github.com/ofek/hatch-vcs)版本來源外掛程式使用 Git 標籤來確定專案版本
 
