@@ -6,7 +6,7 @@
 
 -   [詞彙表](./GLOSSARY.md)
 -   [參考](./REFERENCES.md)
--   [Documentation](./DOCUMENTATION.md)
+-   [文件](./DOCUMENTATION.md)
 -   [遙測](./TELEMETRY.md)
 
 **執行摘要**
@@ -25,6 +25,6 @@
 
 看[README.md](./300/README.md)
 
-## 400 - Conclusion
+## 400 - 結論
 
 看[README.md](./400/README.md)
