@@ -6,14 +6,14 @@ MS-团队-tickertape
 
 -   [词汇表](./GLOSSARY.md)
 -   [参考](./REFERENCES.md)
--   [Documentation](./DOCUMENTATION.md)
+-   [文档](./DOCUMENTATION.md)
 -   [遥测](./TELEMETRY.md)
 
 **执行摘要**
 
 文本
 
-## 100 - 简介
+## 100 - Introduction
 
 看[README.md](./100/README.md)
 
