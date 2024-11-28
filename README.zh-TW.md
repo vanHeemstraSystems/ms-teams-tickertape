@@ -2,16 +2,16 @@ MS-團隊-tickertape
 
 # MS Teams 自動收報機磁帶
 
-> 斯拉格萊恩
+> Slugline
 
 -   [詞彙表](./GLOSSARY.md)
 -   [參考](./REFERENCES.md)
--   [文件](./DOCUMENTATION.md)
+-   [Documentation](./DOCUMENTATION.md)
 -   [遙測](./TELEMETRY.md)
 
-**執行摘要**
+**Executive Summary**
 
-Text
+文字
 
 ## 100 - 簡介
 
