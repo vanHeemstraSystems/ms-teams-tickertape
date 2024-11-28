@@ -2,7 +2,7 @@ ms-team-tickertape
 
 # Cinta teletipo de equipos MS
 
-> Slugline
+> línea de bala
 
 -   [Glosario](./GLOSSARY.md)
 -   [Referencias](./REFERENCES.md)
@@ -11,7 +11,7 @@ ms-team-tickertape
 
 **Resumen ejecutivo**
 
-Poner en funcionamiento su código en su propio sistema.
+Cómo poner en marcha su código en su propio sistema.
 
 **Nota**: Asegúrese de cumplir con los[requisitos](./200/README.md).
 
@@ -157,7 +157,7 @@ pip install ticker-tape
 
 ## Licencia
 
-`ticker-tape`se distribuye bajo los términos del[CON](https://spdx.org/licenses/MIT.html)licencia.
+`ticker-tape`se distribuye bajo los términos del[MIT](https://spdx.org/licenses/MIT.html)licencia.
 
 ## 100 - Introducción
 
