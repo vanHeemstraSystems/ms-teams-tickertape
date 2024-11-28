@@ -1,11 +1,11 @@
-repository-name
+repositorynaam
 
 # Naam van opslagplaats
 
-> Slugline
+> Slaklijn
 
 -   [Glossarium](./GLOSSARY.md)
--   [References](./REFERENCES.md)
+-   [Referenties](./REFERENCES.md)
 -   [Documentatie](./DOCUMENTATION.md)
 -   [Telemetrie](./TELEMETRY.md)
 
@@ -13,7 +13,7 @@ repository-name
 
 Tekst
 
-## 100 - Introduction
+## 100 - Inleiding
 
 Zien[README.md](./100/README.md)
 
