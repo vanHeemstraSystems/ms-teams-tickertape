@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Dashboard from './Dashboard'
+import Messages from './Messages.js'
 import TickerTape from './TickerTape'
 import reportWebVitals from './reportWebVitals'
 
@@ -15,6 +16,7 @@ root.render(
   <React.StrictMode>
     <Dashboard risksJson={risksJson} />
     <TickerTape messagesJson={messagesJson} />
+    <Messages />
   </React.StrictMode>
 )
 
