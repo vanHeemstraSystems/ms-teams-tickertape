@@ -1,6 +1,6 @@
-儲存庫名稱
+MS-團隊-tickertape
 
-# 儲存庫名稱
+# MS Teams 自動收報機磁帶
 
 > 斯拉格萊恩
 
@@ -11,7 +11,7 @@
 
 **執行摘要**
 
-文字
+Text
 
 ## 100 - 簡介
 
@@ -25,6 +25,6 @@
 
 看[README.md](./300/README.md)
 
-## 400 - Conclusion
+## 400 - 結論
 
 看[README.md](./400/README.md)
