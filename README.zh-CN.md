@@ -13,9 +13,9 @@ MS-团队-tickertape
 
 在您自己的系统上启动并运行您的代码。
 
-**笔记**: 确保您满足[requirements](./200/README.md).
+**笔记**: 确保您满足[要求](./200/README.md).
 
-1.  **安装过程：** 
+1.  **安装过程：**
 
     ```bash
     $ cd ticker-tape
@@ -34,7 +34,7 @@ MS-团队-tickertape
     (ticker-tape) $ exit # optional, type `exit` to leave the environment
     ```
 
-    **使用 webpack 打包您的网站：**一旦你有了一个足够好的网站可供你使用，你就必须使用 webpack 打包应用程序。该包文件夹列于`.gitignore`以避免它被提交给 git。
+    **使用 webpack 打包您的网站：**一旦你有了一个足够好的网站可供你使用，你就必须使用 webpack 打包该应用程序。该包文件夹列于`.gitignore`以避免它被提交给 git。
 
     现在所有设置都应该准备就绪，因此您需要做的就是：
     1）`$ hatch shell`2)`(ticker-tape) $ cd src/ticker_tape`3)`(ticker-tape) $ npm install`4)`(ticker-tape) $ npm run build`
@@ -104,7 +104,7 @@ MS-团队-tickertape
     $ hatch run python src/ticker_tape/app.py
     ```
 
-    Then, navigate to `http://127.0.0.1:5000/`在您的网络浏览器中。
+    然后，导航至`http://127.0.0.1:5000/`在您的网络浏览器中。
 
     要运行测试，请使用：
 
@@ -120,13 +120,13 @@ MS-团队-tickertape
 
 # 指标
 
-让像 Prometheus 这样的工具刮擦`http://127.0.0.1:9464/metrics`.
+让 Prometheus 这样的工具刮擦`http://127.0.0.1:9464/metrics`.
 
-**_ NEW _**
+**_新的_**
 
 **目录**
 
--   [Installation](#installation)
+-   [安装](#installation)
 -   [版本来源](#version-source)
 -   [环境](#environments)
 -   [建造](#build)
@@ -140,12 +140,12 @@ pip install ticker-tape
 
 ## 版本来源
 
--   这[hatch-vcs](https://github.com/ofek/hatch-vcs)版本源插件使用 Git 标签确定项目版本
+-   这[孵化VCS](https://github.com/ofek/hatch-vcs)版本源插件使用 Git 标签确定项目版本
 
 ## 环境
 
 -   整齐地定义在一个独立的[`hatch.toml`](https://hatch.pypa.io/latest/intro/#configuration)
--   这`test`矩阵使用[孵化集装箱](https://github.com/ofek/hatch-containers) plugin to run each environment inside Docker containers; usage can be seen in the [测试](.github/workflows/test.yml)GitHub 工作流程
+-   这`test`矩阵使用[孵化集装箱](https://github.com/ofek/hatch-containers)用于运行 Docker 容器内每个环境的插件；用法可以在[测试](.github/workflows/test.yml)GitHub 工作流程
 
 ## 建造
 
@@ -173,4 +173,4 @@ pip install ticker-tape
 
 ## 400 - 结论
 
-See [README.md](./400/README.md)
+看[README.md](./400/README.md)
