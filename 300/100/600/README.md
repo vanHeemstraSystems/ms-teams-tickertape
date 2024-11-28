@@ -6,7 +6,8 @@ Run the following command in your terminal:
 
 ```bash
 $ cd ticker_tape
-$ npm start
+$ npm run build
+$ npm start # TO DO: Currently won't return the page well
 ```
 
 This will start the React app, and you should see your ticker tape component displaying the messages you provided.
