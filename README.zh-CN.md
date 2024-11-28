@@ -9,7 +9,7 @@
 -   [文档](./DOCUMENTATION.md)
 -   [遥测](./TELEMETRY.md)
 
-**执行摘要**
+**Executive Summary**
 
 文本
 
@@ -19,7 +19,7 @@
 
 ## 200 - 要求
 
-See [README.md](./200/README.md)
+看[README.md](./200/README.md)
 
 ## 300 - 构建我们的应用程序
 
