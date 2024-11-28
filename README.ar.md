@@ -7,7 +7,7 @@
 -   [مسرد](./GLOSSARY.md)
 -   [مراجع](./REFERENCES.md)
 -   [التوثيق](./DOCUMENTATION.md)
--   [Telemetry](./TELEMETRY.md)
+-   [القياس عن بعد](./TELEMETRY.md)
 
 **ملخص تنفيذي**
 
@@ -39,7 +39,7 @@
     يجب أن تكون جميع الإعدادات جاهزة الآن، لذا كل ما عليك فعله:
     1)`$ hatch shell`2)`(ticker-tape) $ cd src/ticker_tape`3)`(ticker-tape) $ npm install`4)`(ticker-tape) $ npm run build`
 
-    This will create the `app.js`الملف - الذي يحتوي على جميع المكونات - في`/src/ticker_tape/static/js/`.
+    سيؤدي هذا إلى إنشاء`app.js`الملف - الذي يحتوي على جميع المكونات - في`/src/ticker_tape/static/js/`.
 
     **التطوير باستخدام حزمة الويب:**إذا كنت لا تزال تقوم بتطوير موقع الويب الخاص بك، في**جلسة طرفية منفصلة**، بعد اتباع عملية التثبيت المذكورة أعلاه، قم بما يلي:
     1)`$ hatch shell`2)`(ticker-tape) $ cd src/ticker_tape`3)`(ticker-tape) $ npm install`4)`(ticker-tape) $ npm run watch`
