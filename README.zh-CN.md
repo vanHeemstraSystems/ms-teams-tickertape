@@ -1,15 +1,15 @@
-存储库名称
+MS-团队-tickertape
 
-# 存储库名称
+# MS Teams 自动收报机磁带
 
 > 斯拉格莱恩
 
 -   [词汇表](./GLOSSARY.md)
 -   [参考](./REFERENCES.md)
--   [文档](./DOCUMENTATION.md)
+-   [Documentation](./DOCUMENTATION.md)
 -   [遥测](./TELEMETRY.md)
 
-**Executive Summary**
+**执行摘要**
 
 文本
 
