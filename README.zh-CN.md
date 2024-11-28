@@ -36,15 +36,15 @@ MS-团队-tickertape
 
     **使用 webpack 打包您的网站：**一旦你有了一个足够好的网站可供你使用，你就必须使用 webpack 打包应用程序。该包文件夹列于`.gitignore`以避免它被提交给 git。
 
-    All of the setup should be ready by now so all you have to do:
-    1) `$ hatch shell`2)`(ticker-tape) $ cd src/ticker_tape`3)`(ticker-tape) $ npm install`4)`(ticker-tape) $ npm run build`
+    现在所有设置都应该准备就绪，因此您需要做的就是：
+    1）`$ hatch shell`2)`(ticker-tape) $ cd src/ticker_tape`3)`(ticker-tape) $ npm install`4)`(ticker-tape) $ npm run build`
 
     这将创建`app.js`文件 - 包含所有组件 - 在`/src/ticker_tape/static/js/`.
 
     **使用webpack开发：**如果您仍在开发您的网站，**单独的终端会话**，按照上述安装过程后，执行以下操作：
     1）`$ hatch shell`2)`(ticker-tape) $ cd src/ticker_tape`3)`(ticker-tape) $ npm install`4)`(ticker-tape) $ npm run watch`
 
-    这将 - 在单独的终端会话中（即`background`) - 不断地将您所做的更改加载到适当的文件中，同时您可以在初始终端会话中继续进行这些更改（即`foreground`）。因此，您不必在每次编辑后构建源代码，它会自动处理！
+    这将 - 在单独的终端会话中（即`background`) - constantly load the changes you make into the appropriate files, whilst you can can continue make those changes - in the initial terminal session (i.e. `foreground`）。因此，您不必在每次编辑后构建源代码，它会自动处理！
 
     要查看更改，只需保存并重新加载导航器（通常使用 F5）。
 
@@ -53,7 +53,7 @@ MS-团队-tickertape
 
     **测试**
 
-    以这种方式测试应用程序（前端）：
+    Test the application (frontend) this way:
 
     1)`$ hatch shell`2)`(ticker-tape) $ cd src/ticker_tape`3)`(ticker-tape) $ npm install`4)`(ticker-tape) $ npm test`5)`(ticker-tape) $ npm test -- --coverage`
 
@@ -69,7 +69,7 @@ MS-团队-tickertape
 
 4.  API参考
 
-5.  构建和测试：
+5.  Build and Test:
 
     要构建您的代码，请使用：
 
@@ -118,7 +118,7 @@ MS-团队-tickertape
 
 导航至`http://127.0.0.1:5000/docs`在您的网络浏览器中，或从以下位置下载 openapi.json`http://127.0.0.1:5000/openapi.json`.
 
-# Metrics
+# 指标
 
 让像 Prometheus 这样的工具刮擦`http://127.0.0.1:9464/metrics`.
 
@@ -145,7 +145,7 @@ pip install ticker-tape
 ## 环境
 
 -   整齐地定义在一个独立的[`hatch.toml`](https://hatch.pypa.io/latest/intro/#configuration)
--   这`test`矩阵使用[孵化集装箱](https://github.com/ofek/hatch-containers)用于运行 Docker 容器内每个环境的插件；用法可以在[测试](.github/workflows/test.yml)GitHub 工作流程
+-   这`test`矩阵使用[孵化集装箱](https://github.com/ofek/hatch-containers)用于运行 Docker 容器内每个环境的插件；用法可以在[测试](.github/workflows/test.yml) GitHub workflow
 
 ## 建造
 
@@ -153,7 +153,7 @@ pip install ticker-tape
 -   轮子使用[孵化 mypyc](https://github.com/ofek/hatch-mypyc)构建钩子插件以首先编译所有代码[Mypyc](https://github.com/mypyc/mypyc)
 -   这[建造](.github/workflows/build.yml)GitHub 工作流程展示了如何：
     -   使用[cibuildwheel](https://github.com/pypa/cibuildwheel)为每个平台分发二进制轮子
-    -   使用[应用程序](https://hatch.pypa.io/latest/plugins/builder/app/)构建目标为每个平台构建独立发行版
+    -   使用[应用程序](https://hatch.pypa.io/latest/plugins/builder/app/) build target to build standalone distributions for every platform
 
 ## 执照
 
@@ -161,7 +161,7 @@ pip install ticker-tape
 
 ## 100 - 简介
 
-See [README.md](./100/README.md)
+看[README.md](./100/README.md)
 
 ## 200 - 要求
 
