@@ -1,10 +1,10 @@
-nombre-repositorio
+ms-team-tickertape
 
-# Nombre del repositorio
+# Cinta teletipo de equipos MS
 
 > línea de bala
 
--   [Glosario](./GLOSSARY.md)
+-   [Glossary](./GLOSSARY.md)
 -   [Referencias](./REFERENCES.md)
 -   [Documentación](./DOCUMENTATION.md)
 -   [Telemetria](./TELEMETRY.md)
@@ -21,7 +21,7 @@ Ver[README.md](./100/README.md)
 
 Ver[README.md](./200/README.md)
 
-## 300 - Construyendo nuestra aplicación
+## 300 - Building Our Application
 
 Ver[README.md](./300/README.md)
 
