@@ -7,13 +7,13 @@ nombre-repositorio
 -   [Glosario](./GLOSSARY.md)
 -   [Referencias](./REFERENCES.md)
 -   [Documentación](./DOCUMENTATION.md)
--   [Telemetria](./TELEMETRY.md)
+-   [Telemetry](./TELEMETRY.md)
 
 **Resumen ejecutivo**
 
 Texto
 
-## 100 - Introducción
+## 100 - Introduction
 
 Ver[README.md](./100/README.md)
 
@@ -23,7 +23,7 @@ Ver[README.md](./200/README.md)
 
 ## 300 - Construyendo nuestra aplicación
 
-See [README.md](./300/README.md)
+Ver[README.md](./300/README.md)
 
 ## 400 - Conclusión
 
