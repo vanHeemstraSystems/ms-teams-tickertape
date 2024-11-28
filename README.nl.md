@@ -1,6 +1,6 @@
-repositorynaam
+ms-team-tickertape
 
-# Naam van opslagplaats
+# MS Teams-tickertape
 
 > Slaklijn
 
